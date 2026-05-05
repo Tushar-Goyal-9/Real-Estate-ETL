@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables (contains passwords, API keys)
+.env
+
+# Docker volumes & logs (generated at runtime)
+logs/
+postgres_data/
+
+# Airflow local files
+airflow.cfg
+webserver_config.py
+
+# IDE / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Data files (optional – commit only if you want to share sample data)
+# data/raw/*.csv
+# data/*.csv
