@@ -261,22 +261,7 @@ POSTGRES_PASSWORD=airflow
 
 ---
 
-## 3. Generate Sample Data
-
-```bash
-docker-compose exec webserver mkdir -p /opt/airflow/data/raw
-docker-compose exec webserver python /opt/airflow/data/sample_data_generator.py
-```
-
-Creates:
-
-```text
-data/raw/properties.csv
-```
-
----
-
-## 4. Start Services
+## 3. Start Services
 
 ```bash
 docker-compose up -d
@@ -288,6 +273,21 @@ Starts:
 - Airflow Webserver
 - Airflow Scheduler
 - Metadata Database
+
+---
+  
+## 4. Generate Sample Data
+
+```bash
+docker-compose exec webserver mkdir -p /opt/airflow/data/raw
+docker-compose exec webserver python /opt/airflow/data/sample_data_generator.py
+```
+
+Creates:
+
+```text
+data/raw/properties.csv
+```
 
 ---
 
