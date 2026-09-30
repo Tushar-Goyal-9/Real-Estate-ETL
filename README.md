@@ -1,6 +1,6 @@
-# 📊 Real Estate ETL Pipeline – Production Data Engineering
+# 📊 Real Estate ETL Pipeline – Data Engineering
 
-A production-grade **ETL (Extract, Transform, Load)** pipeline that processes real estate property data using **Apache Airflow, PostgreSQL, Python, Docker, and Streamlit**.
+An **ETL (Extract, Transform, Load)** pipeline that processes real estate property data using **Apache Airflow, PostgreSQL, Python, Docker, and Streamlit**.
 
 The pipeline extracts raw property data from CSV/API sources, cleans and enriches it, loads transformed data into PostgreSQL, and provides real-time analytics through an interactive dashboard.
 
@@ -8,7 +8,7 @@ The pipeline extracts raw property data from CSV/API sources, cleans and enriche
 
 # 📌 Project Overview
 
-This project builds an automated, production-ready ETL pipeline that:
+This project builds an automated, ETL pipeline that:
 
 - Extracts property data from CSV files or external APIs
 - Cleans missing values, removes duplicates, and standardizes formats
